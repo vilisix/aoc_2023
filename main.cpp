@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 
-#include "aoc1/aoc1.h"
+#include "aoc2/aoc2.h"
 
 std::vector<std::string> readInput(const std::string& inputPath) {
     std::ifstream inputFile(inputPath);
@@ -22,10 +22,10 @@ std::vector<std::string> readInput(const std::string& inputPath) {
 }
 
 int main() {
-    const auto input = readInput("./../aoc1/input");
+    const auto input = readInput("./../aoc2/input");
 
-    std::cout << "1: " << Solver1::SolvePart1(input) << std::endl;
-    std::cout << "2: " << Solver1::SolvePart2(input) << std::endl;
+    std::cout << "1: " << Solver2::SolvePart1(input) << std::endl;
+    std::cout << "2: " << Solver2::SolvePart2(input) << std::endl;
 
     return 0;
 }

@@ -1,6 +1,3 @@
-#ifndef AOC1_H
-#define AOC1_H
-
 #include <cctype>
 #include <vector>
 
@@ -71,5 +68,3 @@ public:
         return sum;
     }
 };
-
-#endif //AOC1_H
